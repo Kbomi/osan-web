@@ -1,0 +1,84 @@
+.header {
+  padding: 0 20px;
+}
+
+.header-wrap {
+  position: relative;
+  padding: 5px 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.logo-img-wrap {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+}
+
+.logo-background {
+  height: 100%;
+}
+
+.logo-text {
+  position: absolute;
+  top: calc(50% - 2px);
+  left: calc(50% - 2px);
+  height: 66px;
+  transform: translate(-50%, -50%);
+}
+
+.logo-img-wrap span {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: polygon(0 0, 0 0, 0 0);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .logo-background {
+    animation: App-logo-spin infinite 8s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 600px) {
+  .logo-img-wrap {
+    width: 60px;
+    height: 60px;
+  }
+  .logo-text {
+    height: 55px;
+  }
+}
+
+.install-button {
+  position: absolute;
+  bottom: 10px;
+  right: 0;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 12px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  font-size: 14px;
+  font-weight: bold;
+  color: #b8292f;
+  cursor: pointer;
+  z-index: 997;
+}
+.install-instruction {
+  margin-bottom: 0;
+  font-size: 12px;
+  text-align: right;
+  color: slategray;
+}

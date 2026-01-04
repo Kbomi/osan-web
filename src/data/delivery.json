@@ -1,0 +1,98 @@
+[
+  {
+    "id": 0,
+    "name": "대원각",
+    "address": "",
+    "latitude": "",
+    "longitude": "",
+    "description": "배달 빠름. 쟁반짜장 맛있음.",
+    "tags": ["중국집"],
+    "category": "chineseFood",
+    "link": [
+      {
+        "platform": "배달의민족",
+        "link": "https://s.baemin.com/bkb.4zcg1"
+      },
+      {
+        "platform": "쿠팡이츠",
+        "link": "https://web.coupangeats.com/share?storeId=716077&dishId&key=8518eec7-1e1d-48e9-8bc3-a748d86e75f2"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "name": "박광덕의 천하장사족발",
+    "address": "",
+    "latitude": "",
+    "longitude": "",
+    "description": "쿠팡이츠 미입점. 배달의민족 입점.",
+    "tags": ["족발"],
+    "category": "koreanFood",
+    "link": [
+      {
+        "platform": "배달의민족",
+        "link": "https://s.baemin.com/djp.p420e"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "열정국밥",
+    "address": "",
+    "latitude": "",
+    "longitude": "",
+    "description": "건더기가 엄청 많은편은 아니지만 해장으로 괜찮.",
+    "tags": ["국밥", "해장국밥"],
+    "category": "koreanFood",
+    "link": [
+      {
+        "platform": "배달의민족",
+        "link": "https://s.baemin.com/9te.0oawu"
+      },
+      {
+        "platform": "쿠팡이츠",
+        "link": "https://web.coupangeats.com/share?storeId=555398&dishId&key=eece91c6-0f43-43f2-894e-378e9b46d827"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "진중화요리",
+    "address": "",
+    "latitude": "",
+    "longitude": "",
+    "description": "배달 빠름. 깐풍육 맛있음.",
+    "tags": ["중국집"],
+    "category": "chineseFood",
+    "link": [
+      {
+        "platform": "배달의민족",
+        "link": "https://s.baemin.com/dlc.kx8hs"
+      },
+      {
+        "platform": "쿠팡이츠",
+        "link": "https://web.coupangeats.com/share?storeId=540762&dishId&key=7c47aa8c-52d7-4200-a6aa-de94533baaf4"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "장인족발608",
+    "address": "",
+    "latitude": "",
+    "longitude": "",
+    "description": "",
+    "tags": ["족발"],
+    "category": "koreanFood",
+    "link": [
+      {
+        "platform": "배달의민족",
+        "link": "https://s.baemin.com/bbq.cuuuc"
+      },
+      {
+        "platform": "쿠팡이츠",
+        "link": "https://web.coupangeats.com/share?storeId=216402&dishId&key=a000b262-b52e-4bd4-82fd-3866c4cc09d8"
+      }
+    ]
+  }
+]

@@ -1,0 +1,41 @@
+.map-view {
+  width: 100%;
+  height: 500px;
+}
+
+/* 모바일에서 지도 크기 조정 */
+@media (max-width: 768px) {
+  .map-view {
+    height: 300px;
+  }
+}
+
+/* 커스텀 오버레이 스타일 */
+.custom-overlay {
+  display: flex;
+  align-items: center;
+  background: white;
+  border: 2px solid #b8292f; /* 주요 색상 */
+  border-radius: 5px;
+  padding: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.custom-overlay span {
+  margin-right: 10px;
+  font-size: 14px;
+  color: #333;
+}
+
+.close-btn {
+  background: #b8292f; /* 주요 색상 */
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+}
