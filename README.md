@@ -1,70 +1,22 @@
-# Getting Started with Create React App
+# 🏙️ 오산힐스테이트 생활 정보 공유 플랫폼
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> **"연고 없는 낯선 곳에서의 시작, 이웃의 지혜로 완성하다."** > 낯선 오산 지역으로 이주하며 겪었던 정보 비대칭 문제를 해결하기 위해 제작된 아파트 주민 전용 정보 웹사이트입니다.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 📌 1. Project Overview (프로젝트 개요)
+아파트 단지 주민들이 파편화된 생활 정보(배달 맛집, 주변 편의시설 등)를 한곳에서 쉽고 빠르게 확인할 수 있는 사이트입니다.
 
-### `npm start`
+- **배경**: 이사 후 지역 기반 정보 습득의 어려움 체감
+- **목표**: 주민들만의 정제된 로컬 데이터 시각화
+- **주요 타겟**: 오산힐스테이트 입주민 및 전입 예정자
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🚀 2. Key Features (주요 기능)
+- **생활 정보 큐레이션**: 주민들이 직접 검증한 카테고리별 지역 상권 정보 제공 (아파트 주민 단톡방에서 얻은 정보)
+- **반응형 웹 디자인**: 모바일 사용자가 많은 특성을 고려한 최적화된 UI/UX
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# 의존성 설치
+npm install
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# 로컬 실행
+npm run dev
